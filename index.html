@@ -11,12 +11,14 @@
   </head>
   <body>
     <header>
-      <h1>Odin Recipes</h1>
+      <a href="https://www.theodinproject.com/">
+        <h1>Odin Recipes</h1>
+      </a>
       <nav>
         <ul>
-          <li><a href="">RECIPES</a></li>
+          <li><a href="#jump-top-recipe">RECIPES</a></li>
           <li><a href="">ABOUT</a></li>
-          <li><a href="">NEWSLETTER</a></li>
+          <li><a href="#jump-top-NL">NEWSLETTER</a></li>
           <li><a href="">BLOG</a></li>
         </ul>
       </nav>
@@ -78,7 +80,7 @@
       <section class="featured-dish">
         <h2>Everyone's Favourite Dish</h2>
         <p class="read-more-link">SEE ALL RECIPES &#8594;</p>
-        <div class="recipe-1">
+        <div class="recipe" id="jump-top-recipe">
           <div class="recipe-info">
             <h3>Plov</h3>
             <p>
@@ -92,22 +94,71 @@
             <img src="images/plov.jpg" alt="" />
           </div>
         </div>
-        
-        <div class="recipe-1">
+
+        <div class="recipe flex-end">
           <div class="recipe-info">
-            <h3>Plov</h3>
+            <h3>Beef spaghetti</h3>
             <p>
-              Plov is a Central Asian rice dish made with meat, vegetables, and
-              spices, all cooked together for rich, aromatic flavor. Popular in
-              Uzbekistan, it features ingredients like lamb, carrots, onions,
-              and cumin. Variations exist with different meats and spices.
+              Beef spaghetti is a classic Italian pasta dish featuring spaghetti
+              noodles mixed with a savory beef sauce. The sauce is made with
+              ground beef, tomatoes, onions, garlic, and Italian herbs like
+              basil and oregano. It’s often topped with Parmesan cheese and
+              served hot.
             </p>
           </div>
           <div class="img-container">
-            <img src="images/plov.jpg" alt="" />
+            <img src="images/beef-spaghetti.jpeg" alt="" />
+          </div>
+        </div>
+
+        <div class="recipe">
+          <div class="recipe-info">
+            <h3>lasagne</h3>
+            <p>
+              Lasagne is an Italian pasta dish made with layers of lasagna
+              noodles, rich meat sauce, and creamy béchamel or ricotta cheese.
+              The meat sauce typically includes ground beef, tomatoes, onions,
+              and garlic, seasoned with Italian herbs. It's baked until bubbly
+              and golden, often topped with mozzarella and Parmesan cheese.
+            </p>
+          </div>
+          <div class="img-container">
+            <img src="images/lasagne.jpeg" alt="" />
           </div>
         </div>
       </section>
+
+      <section class="newsletter" id="jump-top-NL">
+        <h2>New recipes sent directly to your inbox.</h2>
+        <p>Easy, elegant recipes to keep you cooking all week long.</p>
+        <button>SUBSCRIBE</button>
+      </section>
     </main>
+    <footer>
+      <h2>Odin Recipe</h2>
+      <p>Easy, elegant recipes you can make any day of the week.</p>
+
+      <div>
+        <div>
+          <h3>Explore</h3>
+          <a href="#jump-top-recipe"> <p>RECIPES</p> </a>
+          <p>BLOG</p>
+          <p>ABOUT</p>
+        </div>
+        <div>
+          <h3>LEGAL</h3>
+          <p>PRIVACY POLICY</p>
+        </div>
+        <div class="icons">
+          <h3>FOLLOW US</h3>
+          <img src="icons/instagram.png" alt="" />
+          <img src="icons/facebook.png" alt="" />
+          <img src="icons/pinterest.png" alt="" />
+        </div>
+      </div>
+      <div id="copywrite">
+        <p>&copy; 2024 The Odin Project. All rights reserved.</p>
+      </div>
+    </footer>
   </body>
 </html>
